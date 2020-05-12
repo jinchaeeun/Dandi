@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>신고처리현황</title>
+        <!--<link rel="stylesheet" href="style.css">-->
+    </head>
+    <body>
+        <!--<header><h1>공공시설물 조회 및 신고</h1></header>-->
+		
+		<!--로고 왼쪽 정렬하기-->
+		<br>
+		&emsp; &emsp; <img src="image/단디 로고.png" alt="Logo" width="80px" align="left" >
+		
+		<!--검색 바-->
+		<div class="search" align="right" >
+		<class="search_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
+		<class="search_btn"> <button><img src="image/search_btn.png" alt="search" width="15px"></button> </class>
+		</div>
+		<br>
+		
+		<!--상위 메뉴 -->
+		<div id="nav">
+            <ul>
+                <li> <a href="">시설물신고</a> </li>
+                <li> <a href="">공공시설물조회</a> </li>
+                <li> <a href="">신고처리현황</a> </li>
+                <li> <a href="">안전뉴스</a> </li>
+            </ul>
+		</div>
+		
+		<br>
+		<br>
+		
+		<!-- 페이지 이름 -->
+			<div class="singo_img">
+				<img src="image/singo_btn.gif" alt="신고처리현황" align="center">&ensp; 신고처리현황</img>
+			</div>		
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		<!-- 지도 -->
+		<div class="map">
+			<img src="image/지도 버튼/gwdo.png" alt="강원도" class="map-button1"><a href="#"></a></img>
+			<img src="image/지도 버튼/kgdo.png" alt="경기도" class="map-button2"><a href="#"></a></img>
+			<img src="image/지도 버튼/ksbdo.png" alt="경상북도" class="map-button3"><a href="#"></a></img>
+		</div>
+		
+		<br>
+		<br>
+
+		<!-- 표 -->
+		<div class="singo_tb">
+			<table class="td" width ="1110px" height="200px" align="center">
+				<!-- 표 상단 -->
+				<tr bgcolor="#DDDCDA" align="center">
+					<td>유형</td>
+					<td>신고일</td>
+					<td>내용</td>
+					<td>신고발생지역</td>
+				</tr>
+
+				<!-- 표 내용 -->	
+				<tr align="center">
+					<td>시설</td>
+					<td>2019-08-13</td>
+					<td>담벼락 보수 공사</td>
+					<td>경북 안동시 송천2길</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- 하단 -->
+		<footer>
+		</footer>
+    </body>
+
+	<style>
+	body {
+		margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
+	}
+
+	/* 네비 바*/
+
+   * {
+	margin:0;
+	padding:0;
+   }
+
+   a{
+    text-decoration: none;
+   }
+   li{
+    list-style:none;
+   }
+   #nav {
+      background: #F5C227;
+   }
+
+   #nav ul{
+   		width: 700px;
+        margin: 0 auto; /*쓸 데 없는 공백 제거*/
+		overflow: hidden;
+   }
+
+   #nav ul li {
+   	  float: left;
+	  width: 25%;
+	  height: 50px;
+	  line-height: 50px;
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 15pt;
+	  
+	  background: #F5C227;   
+	  }
+   
+   #nav ul li a { /*nav-item 클래스 아래의 a 요소를 선택함*/
+   	  display: block;
+      text-align: center;
+      text-decoration: none; /*밑줄 없앰*/
+	  color: #2e2424;
+   }
+
+   #nav ul li a:hover { /*마우스 올렸을 때*/
+      background-color: #E9950D;
+   }
+   /*
+   .nav-container { /*상단 고정*/
+      position: fixed;
+      top: 90px; /*상단 위치를 90으로 위에 고정*/
+   }
+   */
+	header {
+		margin-top: 60px; /*페이지의 맨 위에서 메뉴가 header를 가리지 않도록 공백을 만듬*/
+	}
+
+	/*페이지 이름*/
+	.singo_img {
+   position: absolute;
+   left:230px;
+   top:170px;
+   font-weight: bold;
+   }
+
+	/*지도 부분*/
+	.map {
+	background-color:#6EC8EA;
+	margin: auto; /*div 가운데 정렬*/
+	width:1110px;
+	height:383.3px;
+	line-height:383.3px;
+   }
+
+    .map-button1{ /*강원도*/
+	position:absolute;
+	width:auto;
+	height:auto;
+	max-width:100px; /*최대 너비*/
+	max-height:100px; /*최대 높이*/
+	margin: 25px 520px; /*div 안에서만 위치 이동*/
+
+   }
+
+   .map-button2{ /*경기도*/
+	position:absolute;
+	width:auto;
+	height:auto;
+	max-width:100px;
+	max-height:100px;
+	margin: 35.2px 467.5px;
+   }
+
+   .map-button3{ /*경상북도*/
+	position:absolute;
+	width:auto;
+	height:auto;
+	max-width:110px;
+	max-height:100px;
+	margin: 92px 561px;
+
+   }
+
+   .map-button4{ /*충청북도*/
+	position:absolute;
+	width:100%;
+	height:100%;
+	max-width:100px;
+	max-height:90px;
+	margin: 108px 504px;
+   }
+
+	.map-button5{ /*충청남도*/
+    position: absolute; 
+	left:743px; 
+	top:382px;
+   }
+
+   .map-button6{ /*대전*/
+    position: absolute; 
+	left:843px; 
+	top:427px;
+   }
+
+   .map-button7{ /*대구*/
+    position: absolute; 
+	left:945px; 
+	top:485px;
+   }
+
+   .singo_tb{ /*신고 표*/
+   	width:1110px;
+	height:383.3px;
+    margin: auto; /*div 가운데 정렬*/
+   }
+	
+	.td{
+	 border-right:none;
+	 border-left:none;
+	 border-bottom:none;
+	 border-top:1px solid #000000;
+
+	}
+	<!--외교부 스타일 뜯어옴-->
+	.notice_area {
+	min-width:1100px;
+	height:235px;
+	padding:25px 0 0 0;
+	background:#eaebe6;
+}
+	.notice_inner {
+		width:1100px;
+		overflow:hidden;
+		margin:0 auto;
+	}
+		.notice {
+			position:relative;
+			float:left;
+			width:484px;
+			height:191px;
+			margin:0 0 0 18px;
+			padding:17px 15px 0;
+			border:1px solid #d7d7d7;
+			background:#fff;
+		}
+		.notice_area first-child {
+			margin:0 0 0 25px;
+		}
+			.notice_area h2 {
+				color: #E30513;
+				font-family:'NBGB';
+				font-size:17px;
+			}
+			.notice_area ul {
+				height:120px;
+				overflow:hidden;
+				margin:5px 0 0 0;
+				padding:25px 23px 0 18px;
+				border-top:1px solid #cecece;
+			}
+				.notice_area ul li {
+					padding:0 0 0 10px;
+					background:url('image/bl_dot.gif') no-repeat 0 50%;
+					color:#999;
+					font-size:12px;
+					text-align:right;
+					line-height:30px;
+					letter-spacing:-1px;
+				}
+					.notice_area ul li a {
+						float:left;			/*왼쪽 정렬*/
+						width:355px;
+						overflow: hidden; /*내용이 넘치면 자름*/
+						color:#4c4c4c;
+						font-size:14px;
+						text-align:left;
+						white-space:nowrap;
+						text-decoration: none; /*밑줄 없앰*/
+						/*민영 주석추가해보는 중*/
+						/*에베베*/
+					}
+					.notice_area ul li a strong {
+						margin:0 3px 0 0;
+						color:#ff5a00;
+					}
+			.notice_area a.more {
+				position:absolute;
+				top:20px;
+				right:26px;
+			}
+
+	</style>
+</html>
