@@ -10,7 +10,7 @@
 		
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp; <img src="image/단디 로고.png" alt="Logo" width="80px" align="left" >
+		&emsp; &emsp; <a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >
@@ -85,9 +85,12 @@
 	<style>
 	body {
 		margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
-		overflow: hidden; /*스크롤바 없애기*/
+		-ms-overflow-style: none; /*스크롤바 없애기*/
 	}
-
+	::-webkit-scrollbar { /*스크롤바 없애기*/
+		display: none;
+	}
+	
 	/* 네비 바*/
 
   .nav-container {
