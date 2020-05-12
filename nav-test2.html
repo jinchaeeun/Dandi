@@ -3,7 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>단디: 메인</title>
+        
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+        
+			function checkSupportsImport() {
+			
+				console.log( 'import' in document.createElement('link') );
+			
+				return 'import' in document.createElement('link');
+			
+			}
+			
+			if ( checkSupportsImport() ){
+			
+			//지원되면 여기에 코딩
+			
+			//import한 내용을 id="contents" 에 넣는 작업 하면된다.
+			
+			}else{
+			
+			//안되면 오류 처리를 여기 코딩
+			
+			}
+			
+			</script>
     </head>
     <body>
 		<!--로고 왼쪽 정렬하기-->
@@ -136,6 +160,7 @@
 				margin:5px 0 0 0;
 				padding:25px 23px 0 18px;
 				border-top:1px solid #cecece;
+				list-style-type: none; /*목록 기호 제거*/
 			}
 				.notice_area ul li {
 					padding:0 0 0 10px;
