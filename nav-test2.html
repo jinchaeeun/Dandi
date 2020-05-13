@@ -5,29 +5,6 @@
         <title>단디: 메인</title>
         
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript">
-        
-			function checkSupportsImport() {
-			
-				console.log( 'import' in document.createElement('link') );
-			
-				return 'import' in document.createElement('link');
-			
-			}
-			
-			if ( checkSupportsImport() ){
-			
-			//지원되면 여기에 코딩
-			
-			//import한 내용을 id="contents" 에 넣는 작업 하면된다.
-			
-			}else{
-			
-			//안되면 오류 처리를 여기 코딩
-			
-			}
-			
-			</script>
     </head>
     <body>
 		<!--로고 왼쪽 정렬하기-->
@@ -54,18 +31,12 @@
 		<!--지도-->
 		<img src="image/map.jpg" style="max-width: 100%; height: auto;" alt="Logo" align="left" >
 		<br>
-
 		<!--안전뉴스-->
-
+		
 		<div class="notice_area">
 			<div class="notice_inner">
-			<br>
-			<br>
 				<div class="notice">
-						
-						<h2>안전뉴스</h2>
-						<a href="./news.html" class="more"><img src="image/btn_more_red.gif" alt="더보기" style="vertical-align:middle"></a>
-					
+					<h2>안전뉴스</h2>
 					<ul>
 						<li>
 							<a href="">
@@ -91,11 +62,10 @@
 							</a>2020-04-29
 						</li>
 					</ul>
-								
+					<a href="./news.html" class="more"><img src="image/btn_more_red.gif" alt="더보기"></a>			
 				</div>
 				<div class="notice">
 				<h2>신고처리현황</h2>
-				<a href="./신고처리현황.html" class="more"><img src="image/btn_more_red.gif" alt="더보기"></a>
 				<ul>
 					<li>
 						<a href="">
@@ -121,37 +91,17 @@
 						</a>2020-03-16
 					</li>
 				</ul>
-				
+				<a href="./신고처리현황" class="more"><img src="image/btn_more_red.gif" alt="더보기"></a>
 				</div>
 			</div>
 		</div>
 		<br>
 		<br>
-		<br>
-		<br>
-		<footer>
-			<table class="table_style">
-				<tr>
-					<td class="line">이용약관&nbsp;</td>
-					<td class="line">&nbsp;개인정보처리방침&nbsp;</td>
-					<td class="line">&nbsp;사이트맵&nbsp;</td>
-					<td class="line">&nbsp;배너 다운로드&nbsp;</td>
-					<td>&nbsp;홈페이지오류신고</td>
-				</tr>
-				</table>
-			<table class="logo">
-				<tr>
-					<td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
-					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
-					
-				</tr>
-			</table>
-		</footer>
     </body>
 	<style>
 
+	
 	<!--최신 안전뉴스와 최신 신고처리현황 -->
-
 	.notice_area {
 	min-width:1100px;
 	height:235px;
@@ -167,9 +117,9 @@
 			position:relative;
 			float:left;
 			width:484px;
-			height:210px;
+			height:191px;
 			margin:0 0 0 18px;
-			padding:5px 15px 0;
+			padding:17px 15px 0;
 			border:1px solid #d7d7d7;
 			background:#fff;
 		}
@@ -180,7 +130,6 @@
 				color: #E30513;
 				font-family:'NBGB';
 				font-size:17px;
-				vertical-align:middle;
 			}
 			.notice_area ul {
 				height:120px;
@@ -218,33 +167,6 @@
 				top:20px;
 				right:26px;
 			}
-
-   	/*footer*/
-	footer {
-		position:absolute;
-		margin-top: 0px; /*아래에 있게 하는?*/
-		width:100%;
-		height:160px;   
-		background:#FCEFCD;
-	}
-	
-	.logo{
-		margin-left:30%;
-		margin-top:10px;
-		font-size:10pt;
-		text-align:left;
-		vertical-align: middle;
-	}
-
-	.line{
-		border-right:1.1px solid black;
-	}
-
-	.table_style{
-		margin-left:30%;
-		margin-top:40px;
-		font-size:11pt;
-	}
 
 	</style>
 </html>
