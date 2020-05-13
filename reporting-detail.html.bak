@@ -36,18 +36,47 @@
       </div>
       <p style="font: 25pt; position: absolute; padding: 180px 300px;">휴대전화</p>
       <div class="an_search">
-         <input name="stext" type="text" class="text" style="width: 758.3px; height: 39.9px;" title="검색어 입력" value="">
-		 <a href=""><img src="image/bonin_icon.png" alt="bonin_icon" style="position: absolute; padding: 0px 25px;"></a>
-
+         <input name="stext" type="text" class="text" style="width: 758.3px; height: 39.9px; text-align: right;" title="검색어 입력" value="010-1111-2222">
+		 <a href=""><img src="image/injung.png" alt="injung_icon" style="position: absolute; padding: 0px 25px;"></a>
       </div>
-      <hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;">
-      <img src="image/danger.png" alt="dangerbtn" width="310px" height="220px" style="position: absoulte; padding: 105px 595px;">
-         <p style="position: absolute; top: 670px; padding: 0px 570px; font: 25px bold;">휴대전화 인증을 하여 주십시오.</p>
-		 <br>
-		<br>
-		<br>
-		<br>
-		 <footer>
+	   <hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;">
+	   <p style="font: 25pt; position: absolute; padding: 70px 300px;">신고 조회</p>
+	      
+	<div class="table">  
+		  <table border="1" width="900px;" style="border: 1.5px solid black; border-collapse:collapse;">
+      <tr>
+         <td width="80px" height="54.5px">신고 장소</td>
+         <td>경기도 수원시 장안구 천천동 472-71</td>
+      </tr>
+      <tr>
+         <td height="54.5px">신고 내용</td>
+         <td>버스도착알림이 기울어지고 있습니다.</td>
+      </tr>
+      <tr>
+         <td height="54.5px">처리 기관</td>
+         <td>도시안전통합센터</td>
+      </tr>
+      <tr>
+         <td height="54.5px">처리 내용</td>
+         <td>항상 수원시 발전에 관심을 가져주셔서 감사드리며, 버스도착알림이 지주 기초가 파손되어 2020년 
+         <br>3월 25일 오후 11시경 버스도착알림이를 임시 철거하였으며, 안전 및 통행 불편을 최소화하기 위해
+         <br>조치하였습니다.버스도착알림이는 빠른 시일 내에 재설치하겠습니다.</td>
+      </tr>
+      
+	  
+	  <table border="1" width="900px;" style="border: 1.5px solid black; border-collapse:collapse; text-align:center;">
+	  <tr>
+         <td height="54.5px">처리 전</td>
+         <td height="54.5px">처리 후</td>
+      </tr>
+      <tr>
+         <td width="861.7px" height="320px">(사진)</td>
+         <td width="861.7px" height="320px">(사진)</td>
+      </tr>
+
+   </table>
+   </div>
+		<footer>
 			<table class="table_style">
 				<tr>
 					<td class="line">이용약관&nbsp;</td>
@@ -66,7 +95,10 @@
 			</table>
 		</footer>
 
+
       </body>
+
+
    <style>
    body {
       margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
@@ -119,6 +151,11 @@
       padding: 185px 400px;
    }
 
+   .table{
+   		position: absolute;
+		padding: 130px 300px;
+   }
+
    	/*footer*/
 	footer {
 		position:absolute;
@@ -145,5 +182,6 @@
 		margin-top:40px;
 		font-size:11pt;
 	}
+
    </style>
 </html>

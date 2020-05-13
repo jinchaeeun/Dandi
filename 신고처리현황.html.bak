@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>내알림내역</title>
+        <title>신고처리현황</title>
         <!--<link rel="stylesheet" href="style.css">-->
     </head>
     <body>
@@ -10,7 +10,7 @@
 		
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp;<a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+		&emsp; &emsp; <a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >
@@ -29,24 +29,57 @@
             </ul>
         </nav>
 
-		<img src="image/singo_icon.png" alt="singo_icon" width="85px" align="left" style="padding: 50px 200px;">
+		<img src="image/singo_btn.gif" alt="singo_btn" width="85px" align="left" style="padding: 50px 200px;">
 
-		<div id="an" class="An">
-			<h4>내 알림 내역</h4>
+		<div id="page_name" class="page_name">
+			<h4>신고처리현황</h4>
+		</div>		
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+		<!-- 지도 -->
+		<div class="map">
+			<a href="#"><img src="image/지도 버튼/gwdo.png" alt="강원도" class="map-button1"></img></a>
 		</div>
-
-		<p style="font:25px; position: absolute; padding: 180px 300px;">휴대전화</p>
-
-		<div class="an_search">
-			<input name="stext" type="text" class="text" style="width: 758.3px; height: 39.9px;" title="검색어 입력" value="">
-			<a href=""><img src="image/bonin_icon.png" alt="bonin_icon" style="position: absolute; padding: 0px 25px;"></a>
-		</div>
-
-		<hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;"><!--연한 선 그어주기-->
-
-		<img src="image/danger.png" alt="dangerbtn" width="310px" height="220px" style="position: absoulte; padding: 105px 595px;">
-			<p style="position: absolute; top: 670px; padding: 0px 570px; font: 25px bold;">휴대전화 인증을 하여 주십시오.</p>
 		
+		<br>
+		<br>
+
+		<!-- 표 -->
+			<table class="board_list">
+				<!-- 표 상단 -->
+				<thead>
+				<tr bgcolor="#DDDCDA">
+					<th>유형</th>
+					<th>신고일</th>
+					<th>내용</th>
+					<th>신고발생지역</th>
+				</tr>
+				</thead>
+				
+				<!-- 표 내용 -->	
+				<tbody>
+				<tr>
+					<td>시설</td>
+					<td>2019-08-13</td>
+					<td>담벼락 보수 공사</td>
+					<td>경북 안동시 송천2길</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<br>
 		<br>
 		<br>
@@ -70,13 +103,22 @@
 			</table>
 		</footer>
 
-		</body>
+    </body>
+
 	<style>
 	body {
 		margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
+		/*-ms-overflow-style: none; */  /*스크롤바 없애기*/
 	}
+	 
+	/*스크롤바 없애기*/
+	/*::-webkit-scrollbar { 
+		display: none;
+	}*/
+	
+	/* 네비 바*/
 
-	.nav-container {
+  .nav-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;  /*중간 정렬*/
@@ -112,15 +154,112 @@
 		margin-top: 60px; /*페이지의 맨 위에서 메뉴가 header를 가리지 않도록 공백을 만듬*/
 	}
 
-	.An {
+
+	.page_name {
 		position: absolute;
 		padding: 30px 300px;
 		width: 300px;
 		font: 32px bold;
 	}
-	.an_search {
-		position: absolute;
-		padding: 185px 400px;
+
+
+	/*지도 부분*/
+	.map {
+	background-color:#6EC8EA;
+	position: relative;
+	margin: 8px 0px 0px 200px;
+	width: 1110.5px;
+	height:383.3px;
+	line-height:383.3px;
+	text-align: center;
+   }
+
+    .map-button1{ /*강원도*/
+	position:relative;
+	width:auto;
+	height:auto;
+	max-width:100px; /*최대 너비*/
+	max-height:100px; /*최대 높이*/
+	margin: 25px 520px; /*div 안에서만 위치 이동*/
+
+   }
+
+   .map-button2{ /*경기도*/
+	position:relative;
+	width:auto;
+	height:auto;
+	max-width:100px;
+	max-height:100px;
+	margin:1px 10px;
+   }
+
+   .map-button3{ /*경상북도*/
+	position:relative;
+	width:auto;
+	height:auto;
+	max-width:110px;
+	max-height:100px;
+	margin:25px 520px;
+
+   }
+
+   .map-button4{ /*충청북도*/
+	position:relative;
+	width:100%;
+	height:100%;
+	max-width:100px;
+	max-height:90px;
+	margin: 108px 504px;
+   }
+
+	.map-button5{ /*충청남도*/
+    position: relative; 
+	left:743px; 
+	top:382px;
+   }
+
+   .map-button6{ /*대전*/
+    position: relative; 
+	left:843px; 
+	top:427px;
+   }
+
+   .map-button7{ /*대구*/
+    position: relative; 
+	left:945px; 
+	top:485px;
+   }
+
+   .singo_tb{ /*신고 표*/
+   	width:1110px;
+	height:383.3px;
+    margin: auto; /*div 가운데 정렬*/
+   }
+	
+	table.board_list {
+		table-layout: fixed;
+		position: relative;
+		margin: 8px 0px 0px 200px;
+		width: 1110.5px;
+
+		border-top:1.5px solid black;
+		border-bottom:1px solid black;
+	}
+
+	table.board_list tr th {
+		padding:12px 0 13px;
+		background:#EFEFEF;
+		color:#333;
+		font-size:16px;
+	 }
+	table.board_list tr td {
+		padding:14px 0 10px;
+	    border-top:1px solid #d1d1d1;
+		font-size:15px;
+		text-align:center;
+	}
+	table.board_list tr:first-child td {
+		border-top:0;
 	}
 
 	   	/*footer*/
@@ -149,5 +288,6 @@
 		margin-top:40px;
 		font-size:11pt;
 	}
+
 	</style>
 </html>

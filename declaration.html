@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>단디: 공공시설물 신고</title>
     </head>
+
     <body>
 		<!--로고 왼쪽 정렬하기-->
 		<br>
@@ -29,44 +30,52 @@
 		<!-- 시설물 신고  -->
 		<!-- 상단 이미지 -->
 		<class="declare form">
-		<img src="image/report.png" alt="declaration_icon" width="85px" align="left" style="padding: 50px 200px;">
-		<div id="c" class="C">
-         <h4>시설물신고</h4>
-		</div>
+			<img src="image/report.png" alt="declaration_icon" width="85px" align="left" style="padding: 50px 200px;">
+
+			<div id="c" class="C">
+				<h4>시설물신고</h4>
+			</div>
+		
 		<!-- 입력칸 -->
 		<!-- 사진/동영상 첨부 -->
 		<class="inputform">
 		<table class="T">
-		<tr>
-		<td><span> 사진/동영상 &ensp; </span></td>
-		<td><input type="file" name="FileName" style="width:758.3px; height: 39.9px; background-color: #dddcda;"></td>
-		</tr>
-		<tr>
-		<td><span> 발생지역 </span> </td>
-		<td><!-- 입력칸 회색 --> <input type="text" name="location" style="width:758.3px; height: 39.9px; background-color: #dddcda;"></td>
-		<td>&emsp;<button name="findlocation" align="right">위치찾기</button></td>
-		</tr>
-		<tr>
-		<td><span> 내용 </span></td>
-		<td><textarea name="contents" cols="33" rows="5" required wrap="hard" placeholder="신고 내용을 입력해주세요."></textarea></td>
-		</tr>
-		<tr>
-		<td><span> 휴대전화 </span></td>
-		<td><input type="text" name="tel_authen" style="width:758.3px; height: 39.9px;;"></td>
-		<td>&emsp;<button name="verification">본인인증</button></td>
-		</tr>
-		<tr>
-		<td></td>
-		<td align="right"><input type="checkbox" name="agree" value="check"> <span> 신고 내용 공유 동의 </span> </td>
-		<td>&emsp;<button name="lookup" style="background-color:#6EC8EA;">내용 보기</button></class></td>
-		</tr>
+			<tr>
+				<td><span> 사진/동영상 &ensp; </span></td>
+				<td><input type="file" name="FileName" style="width:758.3px; height: 39.9px; background-color: #dddcda;"></td>
+			</tr>
+
+			<tr>
+				<td><span> 발생지역 </span> </td>
+				<td><!-- 입력칸 회색 --> <input type="text" name="location" style="width:758.3px; height: 31px; background-color: #dddcda;"></td>
+				<td><a href="#"><img src="image/find_btn.png" alt="findbtn" width="70px" height="31px"></img></a></td>
+			</tr>
+
+			<tr>
+				<td><span> 내용 </span></td>
+				<td><textarea name="contents" cols="111" rows="5" required wrap="hard" placeholder="신고 내용을 입력해주세요."></textarea></td>
+			</tr>
+
+			<tr>
+				<td><span> 휴대전화 </span></td>
+				<td><input type="text" name="tel_authen" style="width:758.3px; height: 31px;"></td>
+				<td><a href="#"><img src="image/bonin_icon.png" alt="boninbtn" width="70px" height="31px"></img></a></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td align="left"><input type="checkbox" name="agree" value="check"> <span> 신고 내용 공유 동의 </span> </td>
+				<td><a href="#"><img src="image/content_btn.png" alt="contentbtn" width="70px" height="31px"></img></a></td>
+				</tr>
 		</table>
+
 		<div class="Button">
-		<button name="submit" style="background-color:#009EE3; width:80px; height: 35px;">제출</button> 
-		<button name="reset" style="background-color: #dddcda; width:80px; height: 35px;">초기화</button>
+			<a href="#"><img src="image/submission_btn.png" alt="submissionbtn" width="80px" height="35px"></img></a>
+
+			<a href="#"><img src="image/reset_btn.png" alt="resetbtn" width="80px" height="35px"></img></a>
 		</div>
-		</class>
-		</class>
+	</class>
+	</class>
 		
 		
 		<!--  
@@ -83,7 +92,24 @@
 		 <!-- 입력칸 회색 --> 
 		
 		<br>
-		
+				<footer>
+			<table class="table_style">
+				<tr>
+					<td class="line">이용약관&nbsp;</td>
+					<td class="line">&nbsp;개인정보처리방침&nbsp;</td>
+					<td class="line">&nbsp;사이트맵&nbsp;</td>
+					<td class="line">&nbsp;배너 다운로드&nbsp;</td>
+					<td>&nbsp;홈페이지오류신고</td>
+				</tr>
+				</table>
+			<table class="logo">
+				<tr>
+					<td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
+					
+				</tr>
+			</table>
+		</footer>
 		
 		
     </body>
@@ -128,7 +154,6 @@
 		margin-top: 60px; /*페이지의 맨 위에서 메뉴가 header를 가리지 않도록 공백을 만듬*/
 	}
 	
-	
 	.C {
 		position: absolute;
 		padding: 30px 300px;
@@ -144,6 +169,33 @@
 	.Button{
 		width: 100%;
 		padding: 30px 620px;
+	}
+
+		/*footer*/
+	footer {
+		position:absolute;
+		margin-top: 0px; /*아래에 있게 하는?*/
+		width:100%;
+		height:160px;   
+		background:#FCEFCD;
+	}
+	
+	.logo{
+		margin-left:30%;
+		margin-top:10px;
+		font-size:10pt;
+		text-align:left;
+		vertical-align: middle;
+	}
+
+	.line{
+		border-right:1.1px solid black;
+	}
+
+	.table_style{
+		margin-left:30%;
+		margin-top:40px;
+		font-size:11pt;
 	}
 	</style>
 </html>
