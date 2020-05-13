@@ -21,7 +21,7 @@
         <nav>
             <ul class="nav-container">
                 <li class="nav-item"> <a href="declaration.html">시설물신고</a> </li>
-                <li class="nav-item"> <a href="공공시설물.html">공공시설물조회</a> </li>
+                <li class="nav-item"> <a href="공공시설물.html">공공시설물조회</a> </ li>
                 <li class="nav-item"> <a href="신고처리현황.html">신고처리현황</a> </li>
                 <li class="nav-item"> <a href="news.html">안전뉴스</a> </li>
             </ul>
