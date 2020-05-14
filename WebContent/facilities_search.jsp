@@ -1,86 +1,80 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>공공시설물조회</title>
 </head>
+
 <body>
-   <br>
-      &emsp; &emsp; <a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
-      <!--검색 바-->
-      <div class="search" align="right">
-      <class="search_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
-      <class="search_btn"> <button><img src="image/search_btn.png" alt="search" width="15px"></button> </class>
-      </div>
-      <br>
+	<br>
+	&emsp; &emsp; <a href="nav-test2.html"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+    <!--검색 바-->
+	<div class="search" align="right">
+	<class="se arch_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
+	<class="search_btn"> <button><img src="./image/search_btn.png" alt="search" width="15px"></button> </class>
+	</div>
+	<br>
       
-      <!--상위 메뉴 -->
-        <nav>
-            <ul class="nav-container">
-                <li class="nav-item"> <a href="declaration.html">시설물신고</a> </li>
-                <li class="nav-item"> <a href="공공시설물.html">공공시설물조회</a> </li>
-                <li class="nav-item"> <a href="신고처리현황.html">신고처리현황</a> </li>
-                <li class="nav-item"> <a href="news.html">안전뉴스</a> </li>
-            </ul>
-        </nav>
-      <!--공공시설물 조회-->
-      <img src="image/news_icon.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
-      <div id="c" class="C">
-         <h4 class="Ctit">공공시설물조회</h4>
-      </div>
-         <div id="content" class="Content">
-         <div class="c_inner">
-            <form name="searchform" method="get" action="#"> 
-            <div class="selectbox">
-                  <select name="도" style="width:138px; hegiht=40.4px;" title="도 선택">
-                     <option value="경상북도">도</option>
-                     <option value="경상북도">경상북도</option>
-                  </select>
-                  <select name="시" style="width:138px; hegiht=40.4px;" title="시 선택">
-                     <option value="안동">시</option>
-                     <option value="안동">안동시</option>
-                  </select>
-               <a href=""><img src="image/search_btn2.png" alt="검색" width="35.1px" height="25.3px"></a>
-                  <!-- <input type="image" src="/images/common/btn/btn_search.gif" alt="검색" /> -->
-            </div>
-         </form>
-         <table class="board_list">
-            <!-- 없어도 되는데 페이지 뜯어봤을 때 있었음
-               <colgroup>
-                  <col style="width:25%;" />
-                  <col style="width:25%;" />
-                  <col style="width:25%;" />
-                  <col style="width:25%;" />
-               </colgroup>
-            -->
-               <thead>
-                  <tr style="background-color: #EFEFEF;">
-                     <th scope="col">지역</th>
-                     <th scope="col">시설물종류</th>
-                     <th scope="col">세분류</th>
-                     <th scope="col">점검날짜</th>
-                  </tr>
-               </thead>
-               <tbody>
+    <!--상위 메뉴 -->
+    <nav>
+    	<ul class="nav-container">
+    		<li class="nav-item"> <a href="./declaration.jsp">시설물신고</a> </li>
+            <li class="nav-item"> <a href="./facilities_search.jsp">공공시설물조회</a> </ li>
+            <li class="nav-item"> <a href="./report_processing_status.jsp">신고처리현황</a> </li>
+            <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
+        </ul>
+    </nav>
+    
+	<!--공공시설물 조회-->
+	<img src="./image/news_icon.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
+	<div id="c" class="C">
+		<h4 class="Ctit">공공시설물조회</h4>
+	</div>
+	<div id="content" class="Content">
+		<div class="c_inner">
+			<form name="searchform" method="get" action="#"> 
+				<div class="selectbox">
+					<select name="도" style="width:138px; hegiht=40.4px;" title="도 선택">
+						<option value="경상북도">도</option>
+	               		<option value="경상북도">경상북도</option>
+	            	</select>
+	            	
+	            	<select name="시" style="width:138px; hegiht=40.4px;" title="시 선택">
+	               		<option value="안동">시</option>
+	               		<option value="안동">안동시</option>
+	           		</select>
+	        		<a href=""> <img src="./image/search_btn2.png" alt="검색" width="35.1px" height="25.3px"></a>
+	      		</div>
+	   		</form>
+   		<table class="board_list">
+	        <thead>
+	           	<tr style="background-color: #EFEFEF;">
+            		<th scope="col">지역</th>
+	                <th scope="col">시설물종류</th>
+	                <th scope="col">세분류</th>
+	                <th scope="col">점검날짜</th>
+	            </tr>
+            </thead>
+            
+         	<tbody>
+              	<tr>
+	                <td>경북/안동</td>
+	                <td>도로교량                     
+	                </td>
+	                <td>아치교</td>
+	                <td class="date">2020-05-08</td>                  
+               	</tr>
                
-               <tr>
-                  <td>경북/안동</td>
-                  <td>도로교량                     
-                  </td>
-                  <td>아치교</td>
-                  <td class="date">2020-05-08</td>                  
-               </tr>
-               
-                  <tr>
-                     <td>경북/구미</td>
-                     <td>도로교량                     
-                     </td>
-                     <td>트러스트교                     
-                     </td>
-                     <td class="date">2020-03-18</td>
-                  </tr>
+                 <tr>
+                    <td>경북/구미</td>
+                    <td>도로교량                     
+                    </td>
+                    <td>트러스트교                     
+                    </td>
+                    <td class="date">2020-03-18</td>
+                 </tr>
                
                   <tr>
                      <td>경북/김천</td>
@@ -119,15 +113,14 @@
             </table>
          <table class="logo">
             <tr>
-               <td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+               <td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
                <td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
                
             </tr>
          </table>
       </footer>
 </body>
-
-   <style>
+ <style>
    body {
       margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
    }

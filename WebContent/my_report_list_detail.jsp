@@ -12,26 +12,26 @@
       
       <!--로고 왼쪽 정렬하기-->
       <br>
-      &emsp; &emsp; <a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+      &emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
       
       <!--검색 바-->
       <div class="search" align="right" >
       <class="search_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
-      <class="search_btn"> <button><img src="image/search_btn.png" alt="search" width="15px"></button> </class>
+      <class="search_btn"> <button><img src="./image/search_btn.png" alt="search" width="15px"></button> </class>
       </div>
       <br>
       
       <!--상위 메뉴 -->
         <nav>
             <ul class="nav-container">
-                <li class="nav-item"> <a href="declaration.html">시설물신고</a> </li>
-                <li class="nav-item"> <a href="공공시설물.html">공공시설물조회</a> </li>
-                <li class="nav-item"> <a href="신고처리현황.html">신고처리현황</a> </li>
-                <li class="nav-item"> <a href="news.html">안전뉴스</a> </li>
+                <li class="nav-item"> <a href="./declaration.jsp">시설물신고</a> </li>
+                <li class="nav-item"> <a href="./facilities_search.jsp">공공시설물조회</a> </ li>
+                <li class="nav-item"> <a href="./report_processing_status.jsp">신고처리현황</a> </li>
+                <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
             </ul>
         </nav>
 
-      <img src="image/report.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
+      <img src="./image/report.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
 
       <div id="an" class="An">
          <h4 class="Ctit">내 신고 이력</h4>
@@ -39,7 +39,7 @@
       <p style="font: 25pt; position: absolute; padding: 180px 300px;">휴대전화</p>
       <div class="an_search">
          <input name="stext" type="text" class="text" style="width: 758.3px; height: 39.9px; text-align: right;" title="검색어 입력" value="010-1111-2222">
-		 <a href=""><img src="image/injung.png" alt="injung_icon" style="position: absolute; padding: 0px 25px;"></a>
+		 <a href=""><img src="./image/injung.png" alt="injung_icon" style="position: absolute; padding: 0px 25px;"></a>
       </div>
 	   <hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;">
 	   <p style="font: 25pt; position: absolute; padding: 70px 300px;">신고 조회</p>
@@ -94,7 +94,7 @@
 				</table>
 			<table class="logo">
 				<tr>
-					<td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+					<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
 					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
 					
 				</tr>

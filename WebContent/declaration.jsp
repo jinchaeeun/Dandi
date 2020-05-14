@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,29 +10,29 @@
     <body>
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp; <a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+		&emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >
 		<class="search_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
-		<class="search_btn"> <button><img src="image/search_btn.png" alt="search" width="15px"></button> </class>
+		<class="search_btn"> <button><img src="./image/search_btn.png" alt="search" width="15px"></button> </class>
 		</div>
 		<br>
 		
-		<!--상위 메뉴 -->
+      <!--상위 메뉴 -->
         <nav>
             <ul class="nav-container">
-                <li class="nav-item"> <a href="./declaration.html">시설물신고</a> </li>
-                <li class="nav-item"> <a href="공공시설물.html">공공시설물조회</a> </li>
-                <li class="nav-item"> <a href="신고처리현황.html">신고처리현황</a> </li>
-                <li class="nav-item"> <a href="news.html">안전뉴스</a> </li>
+                <li class="nav-item"> <a href="./declaration.jsp">시설물신고</a> </li>
+                <li class="nav-item"> <a href="./facilities_search.jsp">공공시설물조회</a> </ li>
+                <li class="nav-item"> <a href="./report_processing_status.jsp">신고처리현황</a> </li>
+                <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
             </ul>
         </nav>
 		
 		<!-- 시설물 신고  -->
 		<!-- 상단 이미지 -->
 		<class="declare form">
-			<img src="image/report.png" alt="declaration_icon" width="85px" align="left" style="padding: 50px 200px;">
+			<img src="./image/report.png" alt="declaration_icon" width="85px" align="left" style="padding: 50px 200px;">
 
 			<div id="c" class="C">
 				<h4>시설물신고</h4>
@@ -48,7 +50,7 @@
 			<tr>
 				<td><span> 발생지역 </span> </td>
 				<td><!-- 입력칸 회색 --> <input type="text" name="location" style="width:758.3px; height: 31px; background-color: #dddcda;"></td>
-				<td><a href="#"><img src="image/find_btn.png" alt="findbtn" width="70px" height="31px"></img></a></td>
+				<td><a href="#"><img src="./image/find_btn.png" alt="findbtn" width="70px" height="31px"></img></a></td>
 			</tr>
 
 			<tr>
@@ -59,20 +61,20 @@
 			<tr>
 				<td><span> 휴대전화 </span></td>
 				<td><input type="text" name="tel_authen" style="width:758.3px; height: 31px;"></td>
-				<td><a href="#"><img src="image/bonin_icon.png" alt="boninbtn" width="70px" height="31px"></img></a></td>
+				<td><a href="#"><img src="./image/bonin_icon.png" alt="boninbtn" width="70px" height="31px"></img></a></td>
 			</tr>
 
 			<tr>
 				<td></td>
 				<td align="left"><input type="checkbox" name="agree" value="check"> <span> 신고 내용 공유 동의 </span> </td>
-				<td><a href="#"><img src="image/content_btn.png" alt="contentbtn" width="70px" height="31px"></img></a></td>
+				<td><a href="#"><img src="./image/content_btn.png" alt="contentbtn" width="70px" height="31px"></img></a></td>
 				</tr>
 		</table>
 
 		<div class="Button">
-			<a href="#"><img src="image/submission_btn.png" alt="submissionbtn" width="80px" height="35px"></img></a>
+			<a href="#"><img src="./image/submission_btn.png" alt="submissionbtn" width="80px" height="35px"></img></a>
 
-			<a href="#"><img src="image/reset_btn.png" alt="resetbtn" width="80px" height="35px"></img></a>
+			<a href="#"><img src="./image/reset_btn.png" alt="resetbtn" width="80px" height="35px"></img></a>
 		</div>
 	</class>
 	</class>
@@ -104,7 +106,7 @@
 				</table>
 			<table class="logo">
 				<tr>
-					<td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+					<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
 					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
 					
 				</tr>

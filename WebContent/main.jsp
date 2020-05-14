@@ -12,27 +12,27 @@
     <body>
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp; <a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+		&emsp; &emsp; <a href="nav-test2.html"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >
 		<class="search_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
-		<class="search_btn"> <button><img src="image/search_btn.png" alt="search" width="15px"></button> </class>
+		<class="search_btn"> <button><img src="./image/search_btn.png" alt="search" width="15px"></button> </class>
 		</div>
 		<br>
 		
-		<!--상위 메뉴 -->
+        <!--상위 메뉴 -->
         <nav>
             <ul class="nav-container">
-                <li class="nav-item"> <a href="./declaration.html">시설물신고</a> </li>
-                <li class="nav-item"> <a href="./공공시설물.html">공공시설물조회</a> </li>
-                <li class="nav-item"> <a href="./신고처리현황.html">신고처리현황</a> </li>
-                <li class="nav-item"> <a href="news.html">안전뉴스</a> </li>
+                <li class="nav-item"> <a href="./declaration.jsp">시설물신고</a> </li>
+                <li class="nav-item"> <a href="./facilities_search.jsp">공공시설물조회</a> </ li>
+                <li class="nav-item"> <a href="./report_processing_status.jsp">신고처리현황</a> </li>
+                <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
             </ul>
         </nav>
 		
 		<!--지도-->
-		<img src="image/map.jpg" style="max-width: 100%; height: auto;" alt="Logo" align="left" >
+		<img src="./image/map.jpg" style="max-width: 100%; height: auto;" alt="Logo" align="left" >
 		<br>
 		<!--안전뉴스-->
 		
@@ -67,7 +67,7 @@
 							</a>2020-04-29
 						</li>
 					</ul>
-					<a href="./news.html" class="more"><img src="image/btn_more_red.gif" alt="더보기"></a>			
+					<a href="./news.html" class="more"><img src="./image/btn_more_red.gif" alt="더보기"></a>			
 				</div>
 				<div class="notice">
 				<h2>신고처리현황</h2>
@@ -116,7 +116,7 @@
 				</table>
 			<table class="logo">
 				<tr>
-					<td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+					<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
 					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
 					
 				</tr>

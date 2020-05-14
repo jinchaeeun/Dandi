@@ -10,26 +10,26 @@
     <body> 
       <!--로고 왼쪽 정렬하기 -->
       <br>
-      &emsp; &emsp; <a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left"></a>
+      &emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left"></a>
       
       <!--검색 바-->
       <div class="search" align="right" >
       <class="search_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
-      <class="search_btn"> <button><img src="image/search_btn.png" alt="search" width="15px"></button> </class>
+      <class="search_btn"> <button><img src="./image/search_btn.png" alt="search" width="15px"></button> </class>
       </div>
       <br>
       
       <!--상위 메뉴 -->
         <nav>
             <ul class="nav-container">
-                <li class="nav-item"> <a href="declaration.html">시설물신고</a> </li>
-                <li class="nav-item"> <a href="공공시설물.html">공공시설물조회</a> </li>
-                <li class="nav-item"> <a href="신고처리현황.html">신고처리현황</a> </li>
-                <li class="nav-item"> <a href="news.html">안전뉴스</a> </li>
+                <li class="nav-item"> <a href="./declaration.jsp">시설물신고</a> </li>
+                <li class="nav-item"> <a href="./facilities_search.jsp">공공시설물조회</a> </ li>
+                <li class="nav-item"> <a href="./report_processing_status.jsp">신고처리현황</a> </li>
+                <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
             </ul>
         </nav>
 		 
-	<img src="image/news_icon.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
+	<img src="./image/news_icon.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
 
       <div id="an" class="An">
          <h4 class="Ctit">안전뉴스</h4>
@@ -38,7 +38,7 @@
 	  <div class="location">
 
 				<div class="location_inner">	  
-					<img src="image/home.png" alt="home" width="21.1px" height="19px" align="right" style="position: absolute; padding: 30px 500px;" ><a>Home</a>
+					<img src="./image/home.png" alt="home" width="21.1px" height="19px" align="right" style="position: absolute; padding: 30px 500px;" ><a>Home</a>
 					<em>>  안전뉴스</em>
 				</div>
 			</div>
@@ -63,7 +63,7 @@
 							<th scope="row">첨부파일</th>
 							<td colspan="3">
 								
-									<a href="/dev/fileDownload.mofa?atch_file_id=FILE_000000000022615&file_sn=3" style="color:#6091d1;font-weight:500;"><img src="image/download_file.png" style="vertical-align:middle;">&nbsp;대전 노후공공시설물.jpg</a>			
+									<a href="/dev/fileDownload.mofa?atch_file_id=FILE_000000000022615&file_sn=3" style="color:#6091d1;font-weight:500;"><img src="./image/download_file.png" style="vertical-align:middle;">&nbsp;대전 노후공공시설물.jpg</a>			
 							</td>
 						</tr>
 						<tr>
@@ -74,7 +74,7 @@
 					</tbody>
 				</table>
 				<div class="btn_right" align="right">
-					<a href="news.html"><img src="image/list.png" alt="목록 페이지로 이동" style="padding:600px 200px 0 0;"/></a>
+					<a href="./news_detail.jsp"><img src="./image/list.png" alt="목록 페이지로 이동" style="padding:600px 200px 0 0;"/></a>
 				</div>
 			</div>
 		</div>
@@ -99,7 +99,7 @@
 				</table>
 			<table class="logo">
 				<tr>
-					<td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+					<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
 					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
 					
 				</tr>

@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,26 +12,26 @@
 		
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp;<a href="nav-test2.html"><img src="image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+		&emsp; &emsp;<a href="main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >
 		<class="search_text"> <input type="text" placeholder="검색" style="border: 2px solid #0098B1";><class>
-		<class="search_btn"> <button><img src="image/search_btn.png" alt="search" width="15px"></button> </class>
+		<class="search_btn"> <button><img src="./image/search_btn.png" alt="search" width="15px"></button> </class>
 		</div>
 		<br>
 		
-		<!--상위 메뉴 -->
+ 	    <!--상위 메뉴 -->
         <nav>
             <ul class="nav-container">
-                <li class="nav-item"> <a href="declaration.html">시설물신고</a> </li>
-                <li class="nav-item"> <a href="공공시설물.html">공공시설물조회</a> </li>
-                <li class="nav-item"> <a href="신고처리현황.html">신고처리현황</a> </li>
-                <li class="nav-item"> <a href="news.html">안전뉴스</a> </li>
+                <li class="nav-item"> <a href="./declaration.jsp">시설물신고</a> </li>
+                <li class="nav-item"> <a href="./facilities_search.jsp">공공시설물조회</a> </ li>
+                <li class="nav-item"> <a href="./report_processing_status.jsp">신고처리현황</a> </li>
+                <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
             </ul>
         </nav>
 
-		<img src="image/singo_icon.png" alt="singo_icon" width="85px" align="left" style="padding: 50px 200px;">
+		<img src="./image/singo_icon.png" alt="singo_icon" width="85px" align="left" style="padding: 50px 200px;">
 
 		<div id="an" class="An">
 			<h4 class="Ctit">내 알림 내역</h4>
@@ -41,9 +43,9 @@
 						<col style="width:25%;" />
 					</colgroup>
 				-->
-					<img src="image/check.png" alt="check" width="71.5px" height="71.5px" align="left" style="position: absolute; top: 370px;  left: 200px;">
-					<img src="image/daegu.png" alt="check" width="71.5px" height="71.5px" align="left" style="position: absolute; top: 520px;  left: 200px;">
-					<img src="image/daegu.png" alt="check" width="71.5px" height="71.5px" align="left" style="position: absolute; top: 670px;  left: 200px;">
+					<img src="./image/check.png" alt="check" width="71.5px" height="71.5px" align="left" style="position: absolute; top: 370px;  left: 200px;">
+					<img src="./image/daegu.png" alt="check" width="71.5px" height="71.5px" align="left" style="position: absolute; top: 520px;  left: 200px;">
+					<img src="./image/daegu.png" alt="check" width="71.5px" height="71.5px" align="left" style="position: absolute; top: 670px;  left: 200px;">
 					<thead>
 						<tr>
 						<th scope="col" style="font: 25px; text-align: left; padding: 0px 0px 0px 85px;">신고 답변 완료</th>
@@ -59,7 +61,10 @@
 					</thead>
 				</table>
 			</div>
-
+		<br>
+		<br>
+		<br>
+		<br>
 		<footer>
 			<table class="table_style">
 				<tr>
@@ -72,7 +77,7 @@
 				</table>
 			<table class="logo">
 				<tr>
-					<td><a href="http://www.andong.ac.kr/"><img src="image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+					<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
 					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
 					
 				</tr>
