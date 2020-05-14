@@ -5,11 +5,9 @@
     <head>
         <meta charset="UTF-8">
         <title>신고처리현황</title>
-        <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--<header><h1>공공시설물 조회 및 신고</h1></header>-->
-		
 		<!--로고 왼쪽 정렬하기-->
 		<br>
 		&emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
@@ -31,7 +29,7 @@
             </ul>
         </nav>
 
-		<img src="./image/singo_btn.gif" alt="singo_btn" width="85px" align="left" style="padding: 50px 200px;">
+		<img src="./image/dec_process.png" alt="singo_btn" width="85px" align="left" style="padding: 50px 200px;">
 
 		<div id="page_name" class="page_name">
 			<h4>신고처리현황</h4>

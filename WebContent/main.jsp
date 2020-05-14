@@ -5,14 +5,13 @@
     <head>
         <meta charset="UTF-8">
         <title>단디: 메인</title>
-        
         <link rel="stylesheet" href="style.css">
     </head>
 	
     <body>
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp; <a href="nav-test2.html"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+		&emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >
@@ -67,7 +66,7 @@
 							</a>2020-04-29
 						</li>
 					</ul>
-					<a href="./news.html" class="more"><img src="./image/btn_more_red.gif" alt="더보기"></a>			
+					<a href="./news.jsp" class="more"><img src="./image/btn_more_red.gif" alt="더보기"></a>			
 				</div>
 				<div class="notice">
 				<h2>신고처리현황</h2>
@@ -96,7 +95,7 @@
 						</a>2020-03-16
 					</li>
 				</ul>
-				<a href="./신고처리현황" class="more"><img src="image/btn_more_red.gif" alt="더보기"></a>
+				<a href="./report_processing_status.jsp" class="more"><img src="./image/btn_more_red.gif" alt="더보기"></a>
 				</div>
 			</div>
 		</div>
@@ -118,26 +117,24 @@
 				<tr>
 					<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
 					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
-					
 				</tr>
 			</table>
 		</footer>
 	</body>
+	
 	<style>
-
-	<!--최신 안전뉴스와 최신 신고처리현황 -->
-
-	.notice_area {
-	min-width:1100px;
-	height:235px;
-	padding:25px 0 0 0;
-	background:#eaebe6;
-}
-	.notice_inner {
-		width:1100px;
-		overflow:hidden;
-		margin:0 auto;
-	}
+		<!--최신 안전뉴스와 최신 신고처리현황 -->
+		.notice_area {
+		min-width:1100px;
+		height:235px;
+		padding:25px 0 0 0;
+		background:#eaebe6;
+		}
+		.notice_inner {
+			width:1100px;
+			overflow:hidden;
+			margin:0 auto;
+		}
 		.notice {
 			position:relative;
 			float:left;
@@ -151,75 +148,74 @@
 		.notice_area first-child {
 			margin:0 0 0 25px;
 		}
-			.notice_area h2 {
-				color: #E30513;
-				font-family:'NBGB';
-				font-size:17px;
-				vertical-align:middle;
-			}
-			.notice_area ul {
-				height:120px;
-				overflow:hidden;
-				margin:5px 0 0 0;
-				padding:25px 23px 0 18px;
-				border-top:1px solid #cecece;
-				list-style-type: none; /*목록 기호 제거*/
-			}
-				.notice_area ul li {
-					padding:0 0 0 10px;
-					background:url('image/bl_dot.gif') no-repeat 0 50%;
-					color:#999;
-					font-size:12px;
-					text-align:right;
-					line-height:30px;
-					letter-spacing:-1px;
-				}
-					.notice_area ul li a {
-						float:left;			/*왼쪽 정렬*/
-						width:355px;
-						overflow: hidden; /*내용이 넘치면 자름*/
-						color:#4c4c4c;
-						font-size:14px;
-						text-align:left;
-						white-space:nowrap;
-						text-decoration: none; /*밑줄 없앰*/
-					}
-					.notice_area ul li a strong {
-						margin:0 3px 0 0;
-						color:#ff5a00;
-					}
-			.notice_area a.more {
-				position:absolute;
-				top:20px;
-				right:26px;
-			}
+		.notice_area h2 {
+			color: #E30513;
+			font-family:'NBGB';
+			font-size:17px;
+			vertical-align:middle;
+		}
+		.notice_area ul {
+			height:120px;
+			overflow:hidden;
+			margin:5px 0 0 0;
+			padding:25px 23px 0 18px;
+			border-top:1px solid #cecece;
+			list-style-type: none; /*목록 기호 제거*/
+		}
+		.notice_area ul li {
+			padding:0 0 0 10px;
+			background:url('image/bl_dot.gif') no-repeat 0 50%;
+			color:#999;
+			font-size:12px;
+			text-align:right;
+			line-height:30px;
+			letter-spacing:-1px;
+		}
+		.notice_area ul li a {
+			float:left;			/*왼쪽 정렬*/
+			width:355px;
+			overflow: hidden; /*내용이 넘치면 자름*/
+			color:#4c4c4c;
+			font-size:14px;
+			text-align:left;
+			white-space:nowrap;
+			text-decoration: none; /*밑줄 없앰*/
+		}
+		.notice_area ul li a strong {
+			margin:0 3px 0 0;
+			color:#ff5a00;
+		}
+		.notice_area a.more {
+			position:absolute;
+			top:20px;
+			right:26px;
+		}
 
-   	/*footer*/
-	footer {
-		position:absolute;
-		margin-top: 0px; /*아래에 있게 하는?*/
-		width:100%;
-		height:160px;   
-		background:#FCEFCD;
-	}
+	   	/*footer*/
+		footer {
+			position:absolute;
+			margin-top: 0px; /*아래에 있게 하는?*/
+			width:100%;
+			height:160px;   
+			background:#FCEFCD;
+		}
+		
+		.logo{
+			margin-left:30%;
+			margin-top:10px;
+			font-size:10pt;
+			text-align:left;
+			vertical-align: middle;
+		}
 	
-	.logo{
-		margin-left:30%;
-		margin-top:10px;
-		font-size:10pt;
-		text-align:left;
-		vertical-align: middle;
-	}
-
-	.line{
-		border-right:1.1px solid black;
-	}
-
-	.table_style{
-		margin-left:30%;
-		margin-top:40px;
-		font-size:11pt;
-	}
-
+		.line{
+			border-right:1.1px solid black;
+		}
+	
+		.table_style{
+			margin-left:30%;
+			margin-top:40px;
+			font-size:11pt;
+		}
 	</style>
 </html>

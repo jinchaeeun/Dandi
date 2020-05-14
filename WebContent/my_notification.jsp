@@ -5,14 +5,12 @@
     <head>
         <meta charset="UTF-8">
         <title>내알림내역</title>
-        <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!--<header><h1>공공시설물 조회 및 신고</h1></header>-->
-		
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp;<a href=".main/jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+		&emsp; &emsp;<a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >

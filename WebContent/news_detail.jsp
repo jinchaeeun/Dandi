@@ -4,8 +4,8 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>단디</title>
-        <!--<link rel="stylesheet" href="style.css">-->
+        <title>안전뉴스 상세</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body> 
       <!--로고 왼쪽 정렬하기 -->

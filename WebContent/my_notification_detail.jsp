@@ -5,14 +5,14 @@
     <head>
         <meta charset="UTF-8">
         <title>내알림내역 상세페이지</title>
-        <!--<link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!--<header><h1>공공시설물 조회 및 신고</h1></header>-->
 		
 		<!--로고 왼쪽 정렬하기-->
 		<br>
-		&emsp; &emsp;<a href="main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
+		&emsp; &emsp;<a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
 		
 		<!--검색 바-->
 		<div class="search" align="right" >
@@ -86,45 +86,6 @@
 
 </body>
 	<style>
-	body {
-		margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
-	}
-
-	.nav-container {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;  /*중간 정렬*/
-		width: 100%;
-		margin: 0; /*쓸 데 없는 공백 제거*/
-		padding: 0; /*쓸 데 없는 공백 제거*/
-		background-color: #F5C227;
-		list-style-type: none; /*목록 기호 제거*/
-	}
-
-	.nav-item {
-		padding: 15px;
-		cursor: pointer; /*마우스 커서를 pointer 모양으로 함*/
-		font-weight: bold;
-	}
-	.nav-item a { /*nav-item 클래스 아래의 a 요소를 선택함*/
-		text-align: center;
-		text-decoration: none; /*밑줄 없앰*/
-		padding: 80px; /*네비게이션 바 글씨들 사이 공백*/
-		color: black;
-	}
-
-	.nav-item:hover { /*마우스 올렸을 때*/
-		background-color: #E9950D;
-	}
-	/*
-	.nav-container { /*상단 고정*/
-		position: fixed;
-		top: 90px; /*상단 위치를 90으로 위에 고정*/
-	}
-	*/
-	header {
-		margin-top: 60px; /*페이지의 맨 위에서 메뉴가 header를 가리지 않도록 공백을 만듬*/
-	}
 	
 	.An {
 		position: absolute;
