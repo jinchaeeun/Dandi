@@ -36,7 +36,7 @@
 	}
 	.Ctit{
 		padding-top: 10px;
-		padding-left: 350px;
+		padding-left: 470px;
 	}
 	.nemo {
 		background: purple;

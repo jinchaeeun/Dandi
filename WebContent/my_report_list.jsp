@@ -50,7 +50,7 @@
       </div>
       <hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;">
       <img src="./image/danger.png" alt="dangerbtn" width="310px" height="220px" style="position: absoulte; padding: 105px 595px;">
-         <p style="position: absolute; top: 670px; padding: 0px 570px; font: 25px bold;">휴대전화 인증을 하여 주십시오.</p>
+         <p style="position: absolute; top: 715px; padding: 0px 570px; font: 25px bold;">휴대전화 인증을 하여 주십시오.</p>
 		 <br>
 		<br>
 		<br>
