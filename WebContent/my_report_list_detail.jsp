@@ -43,43 +43,42 @@
 	   <p style="font: 25pt; position: absolute; padding: 70px 300px;">신고 조회</p>
 	      
 	<div class="table">  
-		  <table border="1" width="900px;" style="border: 1.5px solid black; border-collapse:collapse;">
-      <tr>
-         <td width="80px" height="54.5px">신고 장소</td>
-         <td>경기도 수원시 장안구 천천동 472-71</td>
-      </tr>
-      <tr>
-         <td height="54.5px">신고 내용</td>
-         <td>버스도착알림이 기울어지고 있습니다.</td>
-      </tr>
-      <tr>
-         <td height="54.5px">처리 기관</td>
-         <td>도시안전통합센터</td>
-      </tr>
-      <tr>
-         <td height="54.5px">처리 내용</td>
-         <td>항상 수원시 발전에 관심을 가져주셔서 감사드리며, 버스도착알림이 지주 기초가 파손되어 2020년 
-         <br>3월 25일 오후 11시경 버스도착알림이를 임시 철거하였으며, 안전 및 통행 불편을 최소화하기 위해
-         <br>조치하였습니다.버스도착알림이는 빠른 시일 내에 재설치하겠습니다.</td>
-      </tr>
-      
+		<table border="1" width="900px;" style="border: 1.5px solid black; border-collapse:collapse;">
+	      <tr>
+	         <td width="80px" height="54.5px">신고 장소</td>
+	         <td>경기도 수원시 장안구 천천동 472-71</td>
+	      </tr>
+	      <tr>
+	         <td height="54.5px">신고 내용</td>
+	         <td>버스도착알림이 기울어지고 있습니다.</td>
+	      </tr>
+	      <tr>
+	         <td height="54.5px">처리 기관</td>
+	         <td>도시안전통합센터</td>
+	      </tr>
+	      <tr>
+	         <td height="54.5px">처리 내용</td>
+	         <td>항상 수원시 발전에 관심을 가져주셔서 감사드리며, 버스도착알림이 지주 기초가 파손되어 2020년 
+	         <br>3월 25일 오후 11시경 버스도착알림이를 임시 철거하였으며, 안전 및 통행 불편을 최소화하기 위해
+	         <br>조치하였습니다.버스도착알림이는 빠른 시일 내에 재설치하겠습니다.</td>
+	      </tr>
+      </table>
 	  
 	  <table border="1" width="900px;" style="border: 1.5px solid black; border-collapse:collapse; text-align:center;">
-	  <tr>
-         <td height="54.5px">처리 전</td>
-         <td height="54.5px">처리 후</td>
-      </tr>
-      <tr>
-         <td width="861.7px" height="320px">(사진)</td>
-         <td width="861.7px" height="320px">(사진)</td>
-      </tr>
-
-   </table>
-   </div>
-		<br>
-		<br>
-		<br>
-		<br>
+		  <tr>
+	         <td height="54.5px">처리 전</td>
+	         <td height="54.5px">처리 후</td>
+	      </tr>
+	      <tr>
+	         <td width="861.7px" height="320px">(사진)</td>
+	         <td width="861.7px" height="320px">(사진)</td>
+	      </tr>
+	</table>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<div class="footer">
 		<footer>
 			<table class="table_style">
 				<tr>
@@ -98,6 +97,10 @@
 				</tr>
 			</table>
 		</footer>
+		</div>
+   </div>
+ 	
+		
 
 
       </body>
@@ -161,9 +164,10 @@
    }
 
    	/*footer*/
-	footer {
+	.footer {
 		position:absolute;
-		margin-top: 0px; /*아래에 있게 하는?*/
+		
+		left:0;
 		width:100%;
 		height:160px;   
 		background:#FCEFCD;
