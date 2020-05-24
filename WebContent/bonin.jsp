@@ -28,7 +28,7 @@
   		<input type='checkbox' name='check' value='tsin' style="margin-top: 10px; margin-left: 44px;" /><u>통신사이용약관동의</u><br>
   		<input type='checkbox' name='check' value='gwango' style="margin-top: 10px; margin-left: 470px;"/><u>광고성 정보수신 동의(선택)</u><br>
 	 </form>
-	 <a href="#"><div class="nemo"><h3 style="padding-top: 16px; color: white;">시작하기</h3></div></a>
+	 <a href="javascript: alert('완료되었습니다.');"><div class="nemo"><h3 style="padding-top: 16px; color: white;">시작하기</h3></div></a>
 </body>
 <style>
 	.body{
