@@ -28,15 +28,23 @@
   		<input type='checkbox' name='check' value='tsin' style="margin-top: 10px; margin-left: 44px;" /><u>통신사이용약관동의</u><br>
   		<input type='checkbox' name='check' value='gwango' style="margin-top: 10px; margin-left: 470px;"/><u>광고성 정보수신 동의(선택)</u><br>
 	 </form>
-	 <a href="#" style="">시작하기</a>
+	 <a href="#"><div class="nemo"><h3 style="padding-top: 16px; color: white;">시작하기</h3></div></a>
 </body>
 <style>
 	.body{
 		margin: 0px;
 	}
 	.Ctit{
-		padding-top: 20px;
+		padding-top: 10px;
 		padding-left: 350px;
+	}
+	.nemo {
+		background: purple;
+		text-align: center;
+		width: 250px;
+		height: 60px; 
+		margin-top: 45px; 
+		margin-left: 617px;
 	}
 </style>
 </html>
