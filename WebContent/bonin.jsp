@@ -41,10 +41,10 @@
 	.nemo {
 		background: purple;
 		text-align: center;
-		width: 250px;
+		width: 555px;
 		height: 60px; 
 		margin-top: 45px; 
-		margin-left: 617px;
+		margin-left: 470px;
 	}
 </style>
 </html>
