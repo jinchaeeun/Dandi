@@ -62,7 +62,7 @@
 				<tr>
 					<td><span> 휴대전화 </span></td>
 					<td><input type="text" name="tel_authen" style="width:758.3px; height: 31px;"></td>
-					<td><a href="#"><img src="./image/bonin_icon.png" alt="boninbtn" width="70px" height="31px"></img></a></td>
+					<td><a href="./bonin.jsp"><img src="./image/bonin_icon.png" alt="boninbtn" width="70px" height="31px"></img></a></td>
 				</tr>
 	
 				<tr>

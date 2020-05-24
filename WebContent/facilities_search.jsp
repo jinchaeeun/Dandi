@@ -1,13 +1,15 @@
+<%@page import="com.Dandi.tfa.DBUntil"%>
+<%@page import="java.sql.Connection"%>
+
+<link rel="stylesheet" href="style.css">
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
 <head>
 <meta charset=UTF-8">
-<title>공공시설물조회</title>
-<link rel="stylesheet" href="style.css">
-</head>
 
+<title>공공시설물조회</title>
+</head>
 <body>
 	<br>
 	&emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
@@ -58,7 +60,7 @@
 	                <th scope="col">점검날짜</th>
 	            </tr>
             </thead>
-            
+
          	<tbody>
               	<tr>
 	                <td>경북/안동</td>
@@ -97,7 +99,6 @@
             
                </tbody>
             </table>
-      
       <br>
       <br>
       <br>
