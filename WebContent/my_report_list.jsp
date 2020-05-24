@@ -28,7 +28,15 @@
                 <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
             </ul>
         </nav>
-
+	    
+	    <div class= "hover-item">
+          <ul>
+             <li><a href="./declaration.jsp">시설물신고</a></li>
+             <li><a href="./my_report_list.jsp">내신고이력</a></li>
+          </ul>
+       </div>
+       <br/><br/>
+       
       <img src="./image/report.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
 
       <div id="an" class="An">
@@ -68,6 +76,23 @@
 
       </body>
    <style>
+   
+   .hover-item ul li {
+		list-style-type: none; float: left;
+	}
+		.hover-item {
+			list-style-type: none; /*목록 기호 제거*/
+			text-decoration: none; /*밑줄 없앰*/
+			 flex-direction: row;
+			 margin-left: 248px; 
+			 
+		}
+		.hover-item a {
+			text-decoration: none; /*밑줄 없앰*/
+			color: black;
+			padding: 10px;
+		}
+		
    body {
       margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
    }

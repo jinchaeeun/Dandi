@@ -20,7 +20,7 @@
 		</div>
 		<br>
 		
-      <!--상위 메뉴 -->
+        <!--상위 메뉴 -->
         <nav>
             <ul class="nav-container">
                 <li class="nav-item"> <a href="./declaration.jsp">시설물신고</a> </li>
@@ -32,6 +32,14 @@
 		
 		<!-- 시설물 신고  -->
 		<!-- 상단 이미지 -->
+		
+		<div class= "hover-item">
+           <ul>
+              <li><a href="./declaration.jsp">시설물신고</a></li>
+              <li><a href="./my_report_list.jsp">내신고이력</a></li>
+           </ul>
+        </div>
+        <br/><br/>
 		<class="declare form">
 			<img src="./image/report.png" alt="declaration_icon" width="85px" align="left" style="padding: 50px 200px;">
 
@@ -113,6 +121,21 @@
 		</footer>
     </body>
 	<style>
+	.hover-item ul li {
+		list-style-type: none; float: left;
+	}
+		.hover-item {
+			list-style-type: none; /*목록 기호 제거*/
+			text-decoration: none; /*밑줄 없앰*/
+			 flex-direction: row;
+			 margin-left: 248px; 
+			 
+		}
+		.hover-item a {
+			text-decoration: none; /*밑줄 없앰*/
+			color: black;
+			padding: 10px;
+		}
 	
 		.C {
 			position: absolute;
