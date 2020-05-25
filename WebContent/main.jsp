@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <title>단디: 메인</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
     </head>
 	
     <body>
@@ -33,6 +34,14 @@
 		<!--지도-->
 		<img src="./image/map.jpg" style="max-width: 100%; height: auto;" alt="Logo" align="left" >
 		<br>
+		<div id="wrap">
+	<div id="quick_bg">
+		<div id="quick">
+			<a href="./declaration.jsp" style="position:fixed; margin-top:-90px"><img src="./image/Quick_decl.png" style="width:55px"></a>
+			<a href="./declaration.jsp" style="position:fixed; margin-top:-17px"><img src="./image/Quick_my.png" style="width:55px"></a>
+		</div>
+	</div>
+</div>
 		<!--안전뉴스-->
 		
 		<div class="notice_area">
@@ -99,6 +108,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<br>
 		<br>
 		<br>
@@ -119,13 +129,18 @@
 					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
 				</tr>
 			</table>
+			
+			
 		</footer>
-		
-		<!-- 퀵버튼 -->
 		
 	</body>
 	
 	<style>
+		html,body {margin:0; padding:0; position: relative; height: 100%;}
+		#wrap {margin:0 auto;text-align:center;}
+		#quick_bg {margin:0 auto;text-align:center;width:1400px;position:relative;}
+		#quick {position:absolute;z-index:2;top:530px;width:200px;right:0px;}
+
 		<!--최신 안전뉴스와 최신 신고처리현황 -->
 		.notice_area {
 		min-width:1100px;
@@ -220,5 +235,6 @@
 			margin-top:40px;
 			font-size:11pt;
 		}
+						
 	</style>
 </html>
