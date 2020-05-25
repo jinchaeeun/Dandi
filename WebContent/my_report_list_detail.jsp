@@ -97,26 +97,25 @@
  	  </center>
  	  
  	  <br/><br/><br/>
- 	  		
-		 <div class="footer">
-			<footer>
-				<table class="table_style">
-					<tr>
-						<td class="line">이용약관 &nbsp;</td>
-						<td class="line">&nbsp; 개인정보처리방침&nbsp;</td>
-						<td class="line">&nbsp;사이트맵&nbsp;</td>
-						<td class="line">&nbsp;배너 다운로드&nbsp;</td>
-						<td>&nbsp;홈페이지오류신고</td>
-					</tr>
-				</table>
-				<table class="logo">
-					<tr>
-						<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
-						<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
-					</tr>
-				</table>
-			</footer>
-		</div>
+ 	  <div class="footer">
+ 	  	<footer>
+ 	  		<table class="table_style">
+ 	  			<tr>
+ 	  				<td class="line">이용약관 &nbsp;</td>
+					<td class="line">&nbsp; 개인정보처리방침&nbsp;</td>
+					<td class="line">&nbsp;사이트맵&nbsp;</td>
+					<td class="line">&nbsp;배너 다운로드&nbsp;</td>
+					<td>&nbsp;홈페이지오류신고</td>
+				</tr>
+			</table>
+			<table class="logo">
+				<tr>
+					<td><a href="http://www.andong.ac.kr/"><img src="./image/anu_logo.png" alt="로고" width="217px" height="38px"></img></a></td>
+					<td >&nbsp; 054-820-5114 | 경상북도 안동시 경동로 1375<br>&nbsp; http://www.andong.ac.kr/</td>
+				</tr>
+			</table>
+		</footer>
+	</div>
     </body>
       
    <style>
