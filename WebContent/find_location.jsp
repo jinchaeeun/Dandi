@@ -5,12 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>위치찾기</title>
-<input type="text" id="sample6_postcode" placeholder="우편번호">
-<input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기"><br>
-<input type="text" id="sample6_address" placeholder="주소"><br>
-<input type="text" id="sample6_detailAddress" placeholder="상세주소">
-<input type="text" id="sample6_extraAddress" placeholder="참고항목">
-
+<h2 style="margin: 0px; width: 100%; background-color: skyblue; color: white; text-align: center;">위치찾기</h2>
+<div class="input">
+		<input type="text" id="sample6_postcode" placeholder="우편번호"> &nbsp;
+		<input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">
+		<br><br>
+		<input type="text" id="sample6_address" placeholder="주소"><br><br>
+		<input type="text" id="sample6_detailAddress" placeholder="상세주소">
+		<input type="text" id="sample6_extraAddress" placeholder="참고항목">
+		<br><br>
+</div>
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <script>
     function sample6_execDaumPostcode() {
@@ -64,7 +68,7 @@
 </head>
 <body>
 <br />
-<button style="background-color:#009EE3";>확인</button>
+	<button style="margin-top: 150px; margin-left: 175px; background-color: skyblue; color: white;">확인</button>
 <!-- 
 <input type="text" id="sample6_postcode" class="d_form mini" placeholder="우편번호">
         <input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기" class="d_btn"><br>
@@ -72,4 +76,12 @@
         <input type="text" id="sample6_detailAddress" class="d_form" placeholder="상세주소">
         <input type="text" id="sample6_extraAddress" class="d_form" placeholder="참고항목"> -->
 </body>
+<style>
+	.input {
+		position: absolute;
+		top: 70px;
+		left: 40px;
+	}
+	
+</style>
 </html>
