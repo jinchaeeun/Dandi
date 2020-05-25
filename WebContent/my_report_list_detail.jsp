@@ -102,7 +102,7 @@
 			<footer>
 				<table class="table_style">
 					<tr>
-						<td class="line">이용약관&nbsp;</td>
+						<td class="line">이용약관 &nbsp;</td>
 						<td class="line">&nbsp;개인정보처리방침&nbsp;</td>
 						<td class="line">&nbsp;사이트맵&nbsp;</td>
 						<td class="line">&nbsp;배너 다운로드&nbsp;</td>
