@@ -8,6 +8,15 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+	    <!-- 퀵버튼 -->
+		<div id="wrap">
+			<div id="quick_bg">
+				<div id="quick">
+					<a href="./declaration.jsp" style="position:fixed; margin-top:-90px"><img src="./image/Quick_decl.png" style="width:55px"></a>
+					<a href="./my_notification.jsp" style="position:fixed; margin-top:-17px"><img src="./image/Quick_my.png" style="width:55px"></a>
+				</div>
+			</div>
+		</div>	
 		<!--로고 왼쪽 정렬하기-->
 		<br>
 		&emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
@@ -103,6 +112,11 @@
     </body>
 
 	<style>
+	<!--퀵-->
+    #wrap {margin:0 auto;text-align:center;}
+	#quick_bg {margin:0 auto;text-align:center;width:1400px;position:relative;}
+	#quick {position:absolute;z-index:2;top:530px;width:200px;right:0px;}
+    
 	body {
 		margin: 0; /*body의 바깥 여백을 없앰으로서 내비게이션 바가 페이지에 바짝 붙게 함*/
 		/*-ms-overflow-style: none; */  /*스크롤바 없애기*/

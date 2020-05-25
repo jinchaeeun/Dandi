@@ -11,6 +11,15 @@
 <title>공공시설물조회</title>
 </head>
 <body>
+	<!-- 퀵버튼 -->
+	<div id="wrap">
+		<div id="quick_bg">
+			<div id="quick">
+				<a href="./declaration.jsp" style="position:fixed; margin-top:-90px"><img src="./image/Quick_decl.png" style="width:55px"></a>
+				<a href="./my_notification.jsp" style="position:fixed; margin-top:-17px"><img src="./image/Quick_my.png" style="width:55px"></a>
+			</div>
+		</div>
+	</div>
 	<br>
 	&emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
     <!--검색 바-->
@@ -29,7 +38,7 @@
             <li class="nav-item"> <a href="./news.jsp">안전뉴스</a> </li>
         </ul>
     </nav>
-    
+
 	<!--공공시설물 조회-->
 	<img src="./image/news_icon.png" alt="news_icon" width="85px" align="left" style="padding: 50px 200px;">
 	<div id="c" class="C">
@@ -123,6 +132,11 @@
       </footer>
 </body>
  <style>
+    <!--퀵-->
+    #wrap {margin:0 auto;text-align:center;}
+	#quick_bg {margin:0 auto;text-align:center;width:1400px;position:relative;}
+	#quick {position:absolute;z-index:2;top:530px;width:200px;right:0px;}
+    
    .selectbox {
       text-align: right;
       position: relative;

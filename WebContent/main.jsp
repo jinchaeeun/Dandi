@@ -10,6 +10,15 @@
     </head>
 	
     <body>
+    	<!-- 퀵버튼 -->
+		<div id="wrap">
+			<div id="quick_bg">
+				<div id="quick">
+					<a href="./declaration.jsp" style="position:fixed; margin-top:-90px"><img src="./image/Quick_decl.png" style="width:55px"></a>
+					<a href="./my_notification.jsp" style="position:fixed; margin-top:-17px"><img src="./image/Quick_my.png" style="width:55px"></a>
+				</div>
+			</div>
+		</div>
 		<!--로고 왼쪽 정렬하기-->
 		<br>
 		&emsp; &emsp; <a href="./main.jsp"><img src="./image/단디 로고.png" alt="Logo" width="80px" align="left" ></a>
@@ -34,14 +43,8 @@
 		<!--지도-->
 		<img src="./image/map.jpg" style="max-width: 100%; height: auto;" alt="Logo" align="left" >
 		<br>
-		<div id="wrap">
-	<div id="quick_bg">
-		<div id="quick">
-			<a href="./declaration.jsp" style="position:fixed; margin-top:-90px"><img src="./image/Quick_decl.png" style="width:55px"></a>
-			<a href="./declaration.jsp" style="position:fixed; margin-top:-17px"><img src="./image/Quick_my.png" style="width:55px"></a>
-		</div>
-	</div>
-</div>
+		
+		
 		<!--안전뉴스-->
 		
 		<div class="notice_area">
@@ -136,11 +139,11 @@
 	</body>
 	
 	<style>
-		html,body {margin:0; padding:0; position: relative; height: 100%;}
-		#wrap {margin:0 auto;text-align:center;}
+	    <!--퀵-->
+	    #wrap {margin:0 auto;text-align:center;}
 		#quick_bg {margin:0 auto;text-align:center;width:1400px;position:relative;}
 		#quick {position:absolute;z-index:2;top:530px;width:200px;right:0px;}
-
+	    
 		<!--최신 안전뉴스와 최신 신고처리현황 -->
 		.notice_area {
 		min-width:1100px;
