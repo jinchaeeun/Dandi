@@ -6,6 +6,9 @@
         <meta charset="UTF-8">
         <title>단디: 공공시설물 신고</title>
         <link rel="stylesheet" href="style.css">
+        <script language="javascript">
+        	function showPopup() { window.open("find_location.jsp", "위치찾기", "width=400, height=300, left=100, top=50"); }
+  		</script>
     </head>
 
     <body>
@@ -68,7 +71,7 @@
 				<tr>
 					<td><span> 발생지역 </span> </td>
 					<td><!-- 입력칸 회색 --> <input type="text" name="location" style="width:758.3px; height: 31px; background-color: #dddcda;"></td>
-					<td><a href="#"><img src="./image/find_btn.png" alt="findbtn" width="70px" height="31px"></img></a></td>
+					<td><a href="#"><img src="./image/find_btn.png" alt="findbtn" width="70px" height="31px" onclick="showPopup();"></img></a></td>
 				</tr>
 	
 				<tr>
