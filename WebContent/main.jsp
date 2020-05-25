@@ -120,6 +120,9 @@
 				</tr>
 			</table>
 		</footer>
+		
+		<!-- 퀵버튼 -->
+		
 	</body>
 	
 	<style>
