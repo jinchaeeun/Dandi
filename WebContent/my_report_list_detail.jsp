@@ -56,7 +56,7 @@
 	    <hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;">
 	    
 	    <p style="font: 25pt; position: absolute; padding: 70px 300px;">신고 조회&emsp;</p>
-	    <br/><br/><br/><br/>
+	    <br><br><br><br><br><br>
 	  	
 	  	<center>
 		  	<table border="1" width="900px;" style="border: 1.5px solid black; border-collapse:collapse;">
