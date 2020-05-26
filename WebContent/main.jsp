@@ -84,15 +84,15 @@
 				<h2>신고처리현황</h2>
 				<ul>
 					<li>
-						<a href="">
-							[대전] 싱크홀 보수 요청
-						</a>2020-05-21
+						<a href="./reprit_processing_status.jsp">
+							[경북] 담벼락 보수 공사
+						</a>2019-08-13
 					</li>
 		
 					<li>
 						<a href="">
 							[서울] 버스정류소 천장 유리 깨짐
-						</a>2020-04-23
+						</a>2020-03-16
 					</li>
 		
 					<li>
@@ -104,7 +104,7 @@
 					<li>
 						<a href="">
 							[대구] 전봇대 파손
-						</a>2020-03-16
+						</a>2020-04-23
 					</li>
 				</ul>
 				<a href="./report_processing_status.jsp" class="more"><img src="./image/btn_more_red.gif" alt="더보기"></a>
