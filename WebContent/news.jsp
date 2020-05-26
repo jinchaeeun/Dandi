@@ -93,7 +93,7 @@
 					
 					<tr>
 						<td>대전광역시</td>
-						<td class="subject"><a href="./news_detail.jsp">쾌적한 도시 환경을 위해</a></td>
+						<td class="subject"><a href="./news_detail.jsp" style="text-decoration:none; color:black;">쾌적한 도시 환경을 위해</a></td>
 						<td>
 						
 							<img src="./image/download_file.png" alt="첨부파일" />
@@ -103,7 +103,7 @@
 					</tr>
 					<tr>
 						<td>인천광역시</td>
-						<td class="subject"><a href="">붉은 수돗물 사태 막을까...</a></td>
+						<td class="subject"><a href="" style="text-decoration:none; color:black;">붉은 수돗물 사태 막을까...</a></td>
 						<td>
 						
 							<img src="./image/download_file.png" alt="첨부파일" />

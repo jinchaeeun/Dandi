@@ -62,11 +62,11 @@
 		  	<table border="1" width="900px;" style="border: 1.5px solid black; border-collapse:collapse;">
 		      <tr>
 		         <td width="80px" height="54.5px">신고 장소</td>
-		         <td>경기도 수원시 장안구 천천동 472-71</td>
+		         <td>경기도 수원시 장안구 천천동 472-76</td>
 		      </tr>
 		      <tr>
 		         <td height="54.5px">신고 내용</td>
-		         <td>버스도착알림이 기울어지고 있습니다.</td>
+		         <td>버스도착알림이 고장났습니다.</td>
 		      </tr>
 		      <tr>
 		         <td height="54.5px">처리 기관</td>
