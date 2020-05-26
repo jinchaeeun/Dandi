@@ -55,7 +55,7 @@
       <p style="font: 25pt; position: absolute; padding: 180px 300px;">휴대전화</p>
       <div class="an_search">
          <input name="stext" type="text" class="text" style="width: 758.3px; height: 39.9px;" title="검색어 입력" value="">
-		 <a href=""><img src="./image/bonin_icon.png" alt="bonin_icon" style="position: absolute; padding: 0px 25px;"></a>
+		 <a href="./my_report_list_detail.jsp"><img src="./image/bonin_icon.png" alt="bonin_icon" style="position: absolute; padding: 0px 25px;"></a>
 
       </div>
       <hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;">

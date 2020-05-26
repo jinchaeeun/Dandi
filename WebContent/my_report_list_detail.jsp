@@ -55,7 +55,7 @@
 	    
 	    <hr width="75%" color="lightgray" size="1" style="position: relative; top: 60px;">
 	    
-	    <p style="font: 25pt; position: absolute; padding: 70px 300px;">신고 조회</p>
+	    <p style="font: 25pt; position: absolute; padding: 70px 300px;">신고 조회&emsp;</p>
 	    <br/><br/><br/><br/>
 	  	
 	  	<center>
@@ -77,7 +77,7 @@
 		         <td>
 		         	항상 수원시 발전에 관심을 가져주셔서 감사드리며, 버스도착알림이 지주 기초가 파손되어 2020년 
 		         	<br/>3월 25일 오후 11시경 버스도착알림이를 임시 철거하였으며, 안전 및 통행 불편을 최소화하기 위해
-		         	<br/>조치하였습니다.버스도착알림이는 빠른 시일 내에 재설치하겠습니다.
+		         	<br/>조치하였습니다. 버스도착알림이는 빠른 시일 내에 재설치하겠습니다.
 		         </td>
 		      </tr>
 	      </table>
@@ -90,8 +90,12 @@
 	            <td height="54.5px">처리 후</td>
          	</tr>
          	<tr>
-           		<td width="861.7px" height="320px">(사진)</td>
-            	<td width="861.7px" height="320px">(사진)</td>
+           		<td width="861.7px" height="320px">
+           			<img src="./image/bis_before.png" alt="처리전"></img>
+           		</td>
+            	<td width="861.7px" height="320px">
+					<img src="./image/bis_after.png" alt="처리후"></img>
+				</td>
          	</tr>
 		  </table>
  	  </center>
