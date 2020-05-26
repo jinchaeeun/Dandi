@@ -93,7 +93,7 @@
 			</table>
 	
 			<div class="Button">
-				<a href="#"><img src="./image/submission_btn.png" alt="submissionbtn" width="80px" height="35px"></img></a>
+				<a href="javascript: alert('제출 완료되었습니다.')"><img src="./image/submission_btn.png" alt="submissionbtn" width="80px" height="35px"></img></a>
 	
 				<a href="#"><img src="./image/reset_btn.png" alt="resetbtn" width="80px" height="35px"></img></a>
 			</div>
