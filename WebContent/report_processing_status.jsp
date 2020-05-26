@@ -74,6 +74,8 @@
 			<a href="#"><img src="./image/지도 버튼/jrndo.png" alt="전라남도" class="map-button14"></img></a>
 			<a href="#"><img src="./image/지도 버튼/gj.png" alt="광주" class="map-button15"></img></a>
 			<a href="#"><img src="./image/지도 버튼/jjdo.png" alt="제주도" class="map-button16"></img></a>
+			
+			<img src="./image/ksbdo_logo.png" alt="경상북도 로고" class="kb_logo"></img>
 		</div>
 		
 		<br /><br />
@@ -333,6 +335,15 @@
 		max-width:80px; /*최대 너비*/
 		/*max-height:100px; 최대 높이*/
 		margin: 280px -255px; /*div 안에서만 위치 이동*/
+   	}
+   	
+   	.kb_logo{ /*경상북도 로고*/
+		position:absolute;
+		width:100%;
+		height:auto;
+		max-width:75px; /*최대 너비*/
+		/*max-height:100px; 최대 높이*/
+		margin: 120px -110px; /*div 안에서만 위치 이동*/
    	}
    	
 
