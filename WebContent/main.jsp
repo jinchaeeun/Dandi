@@ -41,7 +41,24 @@
         </nav>
 		
 		<!--지도-->
-		<img src="./image/map.jpg" style="max-width: 100%; height: auto;" alt="Logo" align="left" >
+		<div class="map">
+			<a href="#"><img src="./image/지도 버튼/gwdo.png" alt="강원도" class="map-button1"></img></a>
+			<a href="#"><img src="./image/지도 버튼/kgdo.png" alt="경기도" class="map-button2"></img></a>
+			<a href="#"><img src="./image/지도 버튼/su.png" alt="서울" class="map-button3"></img></a>
+			<a href="#"><img src="./image/지도 버튼/ic.png" alt="인천" class="map-button4"></img></a>
+			<a href="./report_processing_status.jsp"><img src="./image/지도 버튼/ksbdo.png" alt="경상북도" class="map-button5"></img></a>
+			<a href="#"><img src="./image/지도 버튼/ccbdo.png" alt="충청북도" class="map-button6"></img></a>
+			<a href="#"><img src="./image/지도 버튼/ccndo.png" alt="충청남도" class="map-button7"></img></a>
+			<a href="#"><img src="./image/지도 버튼/dj.png" alt="대전" class="map-button8"></img></a>
+			<a href="#"><img src="./image/지도 버튼/dg.png" alt="대구" class="map-button9"></img></a>
+			<a href="#"><img src="./image/지도 버튼/jrbdo.png" alt="전라북도" class="map-button10"></img></a>
+			<a href="#"><img src="./image/지도 버튼/ksndo.png" alt="경상남도" class="map-button11"></img></a>
+			<a href="#"><img src="./image/지도 버튼/us.png" alt="울산" class="map-button12"></img></a>
+			<a href="#"><img src="./image/지도 버튼/bs.png" alt="부산" class="map-button13"></img></a>
+			<a href="#"><img src="./image/지도 버튼/jrndo.png" alt="전라남도" class="map-button14"></img></a>
+			<a href="#"><img src="./image/지도 버튼/gj.png" alt="광주" class="map-button15"></img></a>
+			<a href="#"><img src="./image/지도 버튼/jjdo.png" alt="제주도" class="map-button16"></img></a>
+		</div>
 		<br>
 		
 		
@@ -55,9 +72,9 @@
 					<h2>안전뉴스</h2>
 					<ul>
 						<li>
-							<a href="">
-								코로나19 관련 각국의 해외입국자에 대한 입국제한 조치 실시 국가(지역) (5.8 17:00)
-							</a>2020-05-08
+							<a href="./news_detail.jsp">
+								쾌적한 도시 환경을 위해 공공시설물 정비
+							</a>2020-01-27
 						</li>
 			
 						<li>
@@ -211,6 +228,161 @@
 			top:20px;
 			right:26px;
 		}
+		
+		/*지도 부분*/
+		.map {
+			background-color:#6EC8EA;
+			position: relative; /*absolute주면 footer 난리남*/
+			width: 100%;
+			height:500px;
+			/*line-height:383.3px;*/
+			text-align: center;
+		}
+		  
+		.map-button1{ /*강원도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:150px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 35px 0px; /*div 안에서만 위치 이동*/
+		}
+		  
+		.map-button2{ /*경기도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:150px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 50px -78px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button3{ /*서울*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:80px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 70px -50px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button4{ /*인천*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:73px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 68.5px -81px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button5{ /*경상북도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:205px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 132px 41px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button6{ /*충청북도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:149px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 131px -22.5px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button7{ /*충청남도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:150px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 137px -99.5px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button8{ /*대전*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:70px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 175px -18px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button9{ /*대구*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:80px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 215px 55px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button10{ /*전라북도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:160.5px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 201px -80px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button11{ /*경상남도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:135px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 236px 20px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button12{ /*울산*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:74px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 244px 109px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button13{ /*부산*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:73px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 271px 87px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button14{ /*전라남도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:160px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 275px -103px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button15{ /*광주*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:70.5px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 274px -61px; /*div 안에서만 위치 이동*/
+		}
+		
+		.map-button16{ /*제주도*/
+			position:absolute;
+			width:100%;
+			height:auto;
+			max-width:100px; /*최대 너비*/
+			/*max-height:100px; 최대 높이*/
+			margin: 395px -120px; /*div 안에서만 위치 이동*/
+		}
+		
 
 	   	/*footer*/
 		footer {
