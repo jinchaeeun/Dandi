@@ -84,7 +84,7 @@
 					</tbody>
 				</table>
 				<div class="btn_right" align="right">
-					<a href="./news_detail.jsp"><img src="./image/list.png" alt="목록 페이지로 이동" style="padding:600px 200px 0 0;"/></a>
+					<a href="./news.jsp"><img src="./image/list.png" alt="목록 페이지로 이동" style="padding:600px 200px 0 0;"/></a>
 				</div>
 			</div>
 		</div>
