@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <title>단디: 공공시설물 신고</title>
         <link rel="stylesheet" href="style.css">
+        
         <script language="javascript">
         	function showPopup() { window.open("find_location.jsp", "위치찾기", "width=400, height=300, left=100, top=50"); }
   		</script>
@@ -17,7 +18,7 @@
 			<div id="quick_bg">
 				<div id="quick">
 					<a href="./declaration.jsp" style="position:fixed; margin-top:-90px"><img src="./image/Quick_decl.png" style="width:55px"></a>
-					<a href="./my_notification.jsp" style="position:fixed; margin-top:-17px"><img src="./image/Quick_my.png" style="width:55px"></a>
+					<a href="./my_notification_detail.jsp" style="position:fixed; margin-top:-17px"><img src="./image/Quick_my.png" style="width:55px"></a>
 				</div>
 			</div>
 		</div>
@@ -48,7 +49,7 @@
 		<div class= "hover-item">
            <ul>
               <li><a href="./declaration.jsp">시설물신고</a></li>
-              <li><a href="./my_report_list.jsp">내신고이력</a></li>
+              <li><a href="./my_report_list_detail.jsp">내신고이력</a></li>
            </ul>
         </div>
         <br/><br/>

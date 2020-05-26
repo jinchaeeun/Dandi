@@ -7,7 +7,6 @@
 <title>본인 인증</title>
 </head>
 <body>
-	<div id="bonin" class="Bonin">
          <h1 class="Ctit">PASS</h1>
          <hr>
     </div>
